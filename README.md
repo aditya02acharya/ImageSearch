@@ -27,7 +27,7 @@ emulated with control knowledge. The control knowledge is represented
 as a mapping between the beliefs and actions, which is learnt
 with a reinforcement learning algorithm, Q-learning. 
 
-Before learning, an empty Qtable was assumed in which the values (i.e., Q-values) of all beliefaction
+Before learning, an empty Qtable was assumed in which the values (i.e., Q-values) of all belief action
 pairs were zero. The model therefore started with no control
 knowledge and action selection was entirely random. The model
 was then trained until performance plateaued (requiring 100,000 trials).
